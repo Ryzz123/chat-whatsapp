@@ -1,0 +1,724 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, div
+pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q,
+s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li,
+figure, header, nav, section, article, aside, footer, figcaption, input {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+}
+/* area konten */
+.container {
+    padding: 5rem;
+}
+
+.tanggal-1 {
+    margin: auto;
+    text-align: center;
+}
+
+.tanggal-1 p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+}
+.tanggal-12 {
+    padding-top: 1rem;
+    margin: auto;
+    text-align: center;
+}
+
+.tanggal-12 p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+}
+
+.chat {
+    position: relative;
+    top: 2rem;
+    left: 4rem;
+    height: 35px;
+    background-color: #186b5c;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
+.chat1 {
+    display: flex;
+}
+
+.chat2 {
+    display: flex;
+}
+
+.chat1 span {
+    position: relative;
+    top: 8px;
+    left: 5px;
+    color: white;
+    font-size: 16px;
+}
+
+.chat1 a {
+    text-decoration: none;
+}
+
+.chat1 img {
+    position: relative;
+    width: 30px;
+}
+
+.chat2 figcaption {
+    position: relative;
+    font-size: small;
+    top: 18px;
+    right: 20px;
+    color: rgb(206, 202, 202);
+}
+
+.chat2 i {
+    position: relative;
+    right: 0.7rem;
+    top: 14px;
+    font-size: 19px;
+    color: rgb(167, 170, 175);
+}
+
+.css,.php,.laravel,.gambar,.jsc {
+    position: relative;
+    top: 2rem;
+    right: 3.9rem;
+    height: 35px;
+    background-color: #1f2c34;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
+.js img {
+    position: relative;
+    margin-left: 5px;
+    width: 25px;
+}
+
+.c img {
+    position: relative;
+    margin-left: 5px;
+    top: 5px;
+    width: 25px;
+}
+
+.gambar2 {
+    position: relative;
+    top: 2rem;
+    right: 3.9rem;
+    height: 150px;
+    background-color: #057e66;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
+.gambar2 img {
+    position: relative;
+    left: 10px;
+    top: 5px;
+    width: 250px;
+    height: 140px;
+}
+
+.gambar2 .chat1 {
+    text-align: center;
+}
+
+.gambar2 figcaption {
+    position: relative;
+    right: 1.8rem;
+    top: 8rem;
+}
+/* area navbar */
+body {
+    background-image: url(https://wallpapercave.com/wp/wp6988787.png);
+    background-repeat: repeat;
+}
+
+.nav {
+    background-color: #1f2c34;
+    position: fixed;
+    height: 10%;
+    width: 100%;
+    z-index: 99;
+}
+
+.profil {
+    display: flex;
+    position: relative;
+    top: 0.3rem;
+}
+
+.profil i {
+    color: white;
+    font-size: 34px;
+    position: relative;
+    top: 10px; 
+    cursor: pointer;
+}
+
+.profil img {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    top: 0.5rem;
+    right: 0.3rem;
+}
+
+.profil h3 {
+    position: relative;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 0.6rem;
+    left: 0.3rem;
+}
+
+.profil figcaption {
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    top: 2.2rem;
+    right: 2.4rem;
+    color: white;
+    font-size: small;
+}
+
+/* area pinggir navbar */
+.area-icon {
+    position: relative;
+    display: flex;
+    justify-content: end;
+    bottom: 2rem;
+}
+
+.area-icon i {
+    position: relative;
+    top: 16px;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.area-icon .in {
+    margin-right: 1.5rem;
+}
+
+.area-icon .ib {
+    margin-right: 0.6rem;
+}
+
+/* area footer */
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 10vh;
+    width: 100%;
+}
+
+.kotak-pesan {
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    top: 1rem;
+    left: 1rem;
+    width: 80%;
+    height: 60%;
+    border-radius: 20px;
+    background-color: #1f2c34;
+}
+
+.kotak-1 {
+    position: absolute;
+    display: flex;
+    left: 0;
+    right: 0;
+    top: 0.6rem;
+    margin-left: 0.4rem;
+}
+
+.kotak-2 {
+    position: absolute;
+    right: 0;
+    top: 0.6rem;
+    margin-right: 0.6rem;
+}
+
+.kotak-pesan .kt {
+    font-size: 21px;
+    color: rgb(206, 201, 201);
+    margin-right: 1rem;
+}
+
+.kotak-pesan .kb {
+    font-size: 21px;
+    color: rgb(206, 201, 201);
+    margin-left: 0.5rem;
+}
+
+input {
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    font-size: 18px;
+    background-color: rgba(23, 48, 52, 0);
+}
+
+.pesan-suara {
+    position: absolute;
+    right: 0.4rem;
+    bottom: 0.6rem;
+    width: 17px;
+    padding: 14px;
+    border-radius: 50%;
+    background-color: #057e66;
+}
+
+.pesan-suara i {
+    color: white;
+}
+
+@media screen and (min-width: 476px) {
+    body {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 345px) {
+    .antarmuka-container {
+        display: none;
+    }
+}
+
+/* @media screen and (max-width: 767px) {
+    body {
+        background-size: cover;
+    }
+}
+
+
+@media screen and (max-width: 992px) {
+    body {
+        background-size: cover;
+    }
+}
+
+
+@media screen and (max-width: 1600px) {
+    body {
+        background-size: cover;
+    }
+} */
+
+/* ----- preloader ----- */
+.logo-overlay {
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 9999;
+	background-color: #000;
+	pointer-events: none;
+}
+
+.tcf-logo {
+	position: fixed;
+	top: calc(50% - 69px);
+	left: calc(45% - 54.5px);
+	width: 129px;
+	height: 138px;
+	opacity: 1;
+	z-index: 99999;
+	transform: scale(1);
+	transition: all 1.5s ease;
+	pointer-events: none;
+}
+
+.tcf-logo.fade-out {
+	transform: scale(1.2);
+	opacity: 0;
+}
+
+.page-state {
+    font-family: Arial, Helvetica, sans-serif;
+	position: fixed;
+    font-size: xx-large;
+	top: calc(50% + 100px);
+	left: calc(43% - 35px);
+	color: #f1f1f1;
+	z-index: 99999;
+}
+
+.page-state.pulse {
+	opacity: .2;
+	animation: pulsate .8s ease-out;
+	-webkit-animation: pulsate .8s ease-out;
+	-webkit-animation-iteration-count: infinite;
+	animation-iteration-count: infinite;
+}
+
+/* menu kedua */
+.menu-kedua {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #1f2c34;
+    width: 100%;
+    max-height: 100vh;
+    overflow-y: hidden;
+    z-index: 999;
+}
+
+.display {
+    display: none;
+}
+
+/* menu nav kedua */
+.menu-nav {
+    background-color: #1f2c34;
+    position: fixed;
+    height: 7%;
+    width: 100%;
+    z-index: 99;
+    display: flex;
+}
+
+.menu-back i {
+    left: 0.8rem;
+    color: white;
+    font-size: 34px;
+    position: relative;
+    top: 7px;
+    cursor: pointer;
+}
+
+.setelan {
+    position: relative;
+    left: 2rem;
+    top: 17px;
+}
+
+.setelan h4 {
+    color: white;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* menu profil kedua */
+.menu-profil {
+    padding-top: 5rem;
+    display: flex;
+    height: 8%;
+    border-bottom: 0.03px solid #a5a7a77b;
+    position: relative;
+}
+
+.menu-gambar {
+    display: flex;
+}
+
+.menu-gambar img {
+    position: relative;
+    width: 57px;
+    height: 57px;
+    border-radius: 50%;
+    left: 1rem;
+    bottom: 1rem;
+}
+
+.menu-gambar h3 {
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    left: 2rem;
+    bottom: 0.5rem;
+}
+
+.menu-fig {
+    position: relative;
+    color: rgb(166, 163, 163);
+    font-family: Arial, Helvetica, sans-serif;
+    right: 2.5rem;
+    top: 1.2rem;
+    font-size: small;
+}
+
+.sqan-qr {
+    text-align: end;
+}
+
+.sqan-qr img {
+    width: 27px;
+    position: relative;
+    bottom: 3.8rem;
+    right: 2rem;
+}
+
+/* konten */
+.konten-menu {
+    position: relative;
+    bottom: 2.5rem;
+}
+
+.akun {
+    display: flex;
+    margin-left: 2rem;
+    padding-top: 1rem;
+}
+
+.logo-kunci {
+    margin-top: 1.5rem;
+    margin-right: 1.8rem;
+}
+
+.akun .logo-kunci img {
+    width: 30px;
+}
+
+.teks-kunci {
+    margin-top: 0.9rem;
+    line-height: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.teks-kunci a {
+    text-decoration: none;
+}
+
+.teks-kunci #teks-akun {
+    font-size: 16px;
+    color: white;
+    padding-top: 0.3rem;
+}
+
+#teks-akun- {
+    padding-top: 1.3rem;
+    font-size: 16px;
+    color: white;
+}
+
+.konten2 {
+    position: relative;
+    bottom: 1rem;
+}
+
+.teks-kunci p {
+    color: rgb(175, 175, 175);
+}
+
+.logo-kunci i {
+    position: relative;
+    top: 0.3rem;
+    font-size: 27px;
+    color: #A5B1BB;
+}
+
+.about2 {
+    line-height: 20px;
+}
+
+/* daerah footer menu kedua */
+.footer2 {
+    position: relative;
+    bottom: 2.4rem;
+    text-align: center;
+    margin-bottom: 2rem;
+    line-height: 2px;
+}
+
+.footer-1 {
+    color: rgb(168, 167, 167);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer-teks {
+    position: relative;
+}
+
+.logo-teks {
+    position: relative;
+    top: 10px;
+    right: 4px;
+}
+
+span {
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    color: white;
+    bottom: 0.2rem;
+}
+
+/* menu chat utama */
+.antarmuka-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #202c34;
+    width: 100%;
+    max-height: 100vh;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    z-index: 999;
+}
+
+/* navbar antarmuka */
+.navbar-antarmuka {
+    height: 14%;
+    width: 100%;
+    background-color: #172933;
+    border-bottom: 0.5px solid rgba(151, 149, 149, 0.388);
+}
+
+.antarmuka-nav-1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.antarmuka-nav-1 h3 {
+    position: relative;
+    top: 0.7rem;
+    left: 1.2rem;
+    color: rgb(187, 183, 183);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.antarmuka-pencarian {
+    position: relative;
+    top: 0.7rem;
+}
+
+.antarmuka-pencarian i {
+    font-size: 24px;
+    padding-right: 1rem;
+    color: rgb(187, 183, 183);
+    cursor: pointer;
+}
+
+/* navbar bawah */
+.antarmuka-nav-2 {
+    position: relative;
+    top: 2.4rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#chat {
+    position: relative;
+    right: 20px;
+    padding: 0 20px;
+    display: inline-block;
+    height: 30px;
+    color: rgb(14, 214, 144);
+    border-bottom: solid 2px rgb(14, 214, 144);
+}
+
+.antarmuka-nav-2 i {
+    position: relative;
+    font-size: 25px;
+    bottom: 0.5rem;
+    right: 0.3rem;
+    color: rgb(187, 183, 183);
+    padding-left: 0.5rem;
+}
+
+.antarmuka-nav-2-teks {
+    position: relative;
+    left: 1.5rem;
+}
+
+.antarmuka-nav-2-teks span {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding-right: 2rem;
+    color: rgb(187, 183, 183);
+}
+
+/* konten antarmuka */
+.antarmuka-konten {
+    position: relative;
+    top: 0rem;
+}
+
+.antarmuka-gambar1 img {
+    position: relative;
+    width: 60px !important;
+    border-radius: 50%;
+    right: 1rem;
+}
+
+.akun-antarmuka {
+    position: relative;
+    bottom: 1rem;
+    cursor: pointer;
+}
+
+.antarmuka-about {
+    padding-top: 0.5rem;
+}
+
+.antarmuka-teks-kunci i,#p {
+    display: inline;
+    position: relative;
+    top: 1.4rem;
+    right: 1.4rem;
+}
+
+.antarmuka-teks-kunci #teks-akun {
+    font-size: 18px;
+    position: relative;
+    top: 0.7rem;
+    right: 1.6rem;
+}
+
+.antarmuka-teks-kunci i {
+    position: relative;
+    color: gray;
+    top: 1.5rem;
+}
+
+#p2 {
+    color: rgb(186, 178, 178) !important;
+    position: relative;
+    z-index: 10;
+    top: 1.3rem !important;
+    left: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* bagian chat hijau di bawah!!!!!!! */
+.akun-antarmuka-chat {
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+    background-color: #186b5c;
+    width: 70px;
+    border-radius: 50%;
+}
+
+.kunci-chat {
+    position: relative;
+    bottom: 1.3rem;
+    left: 1.3rem;
+}
+
+.kunci-chat i {
+    color: white;
+}
